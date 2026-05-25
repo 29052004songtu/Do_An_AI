@@ -13,8 +13,12 @@ Do_An_AI/
 │   ├── emotion_encoder.pkl
 │   ├── svm_topic_model.pkl
 │   ├── svm_emotion_model.pkl
-│   ├── model_emo/              
-│   └── model_top/              
+│   ├── model_emo/
+│   │   ├── config.json
+│   │   └── model.safetensors                 
+│   └── model_top/
+│       ├── config.json
+│       └── model.safetensors             
 │
 ├── requirements.txt            # Danh sách thư viện để người khác cài đặt
 └── app.py                      # Mã nguồn chính chạy giao diện Web
