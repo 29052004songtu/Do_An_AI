@@ -1,0 +1,8 @@
+torch
+transformers
+scikit-learn==1.6.1
+numpy
+emoji
+gradio
+joblib
+imbalanced-learn
